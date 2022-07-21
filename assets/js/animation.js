@@ -172,7 +172,7 @@ mmi.addHandler("semantic", "click", function(mesh){
         y: 60
     })
     setTimeout(function(){
-        location.href = "../../pages/semantic.html"
+        location.href = "/pages/semantic.html"
     },9000)
 })
 

@@ -172,7 +172,7 @@ mmi.addHandler("semantic", "click", function(mesh){
         y: 60
     })
     setTimeout(function(){
-        location.href = "/pages/semantic.html"
+        location.href = "/jsLibraries/pages/semantic.html"
     },9000)
 })
 
@@ -199,7 +199,7 @@ mmi.addHandler("mediaquery", "click", function(mesh){
         y: 60
     })
     setTimeout(function(){
-        location.href = "../../pages/mediaqueries.html"
+        location.href = "/jsLibraries/pages/mediaqueries.html"
     },9000)
 })
 
@@ -226,7 +226,7 @@ mmi.addHandler("turn", "click", function(mesh){
         y: 60
     })
     setTimeout(function(){
-        location.href = "../../pages/turnJs.html"
+        location.href = "/jsLibraries/pages/turnJs.html"
     },9000)
 })
 
@@ -253,7 +253,7 @@ mmi.addHandler("animateJs", "click", function(mesh){
         y: 60
     })
     setTimeout(function(){
-        location.href = "../../pages/animateCSS.html"
+        location.href = "/jsLibraries/pages/animateCSS.html"
     },9000)
 })
 
@@ -281,7 +281,7 @@ mmi.addHandler("wow", "click", function(mesh){
         y: 60
     })
     setTimeout(function(){
-        location.href = "../../pages/wowJs.html"
+        location.href = "/jsLibraries/pages/wowJs.html"
     },9000)
 })
 

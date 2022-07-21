@@ -54,7 +54,7 @@ var wow;
 
 var color = new THREE.MeshBasicMaterial({color: 0x01c4e7});
 var shadow = new THREE.MeshBasicMaterial({color: 0x005c7c});
-var font = "./../fonts/MODERA_Regular.json"
+var font = URL("./../fonts/MODERA_Regular.json");
 
 loader.load(font, function (font){
     const geometry = new TextGeometry("Bienvenido.",{

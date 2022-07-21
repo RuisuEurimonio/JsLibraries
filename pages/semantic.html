@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/general.css">
+    <title>Html semantico.</title>
+    <link rel="icon" href="../assets/img/ruisu.ico">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12 col-lg-11 col-xl-10">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Ruisu Euri</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio.</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="semantic.html">Html Semantico</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link "  href="mediaqueries.html">Mediaqueries.</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="turnJs.html">Turn.js.</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="animateCSS.html">Animate.style.</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="wowJs.html">Wow.js.</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        
+            <section class="col-12 col-lg-11 col-xl-10 dark px-4">
+                <h1 class=""> ¿Qué es el html semantico? </h1>
+                <p> El HTML semántico es un concepto para estructurar y escribir código HTML, de manera que el significado del contenido de una página web sea más claro a través de sus etiquetas. </p>
+                <h2> ¿Cómo funciona?</h2>
+                <p> Las etiquetas semánticas pueden utilizarse en lugar de las etiquetas de presentación estándar y esto ayuda a mejorar la legibilidad y la usabilidad, al tiempo que reduce la necesidad de datos estructurados. Esta nueva forma de concebir la programación permite crear sitios web más accesibles y más significativos para los motores de búsqueda. El marcado semántico también es beneficioso porque permite hacer hojas de estilo CSS separadas para cada sección de su sitio web. </p>
+            </section>
+
+            <section class="col-12 col-lg-11 col-xl-10 dark px-4 pt-4">
+                <h3> Ejemplo de html semantico. </h3>
+                <figure class="col-12 border border-white d-flex align-items-center flex-column">
+                    <img class="col-12" src="../assets/img/semantic.png" alt="Pagina con html semantico visible">
+                    <figcaption class="py-2"> Ejemplo de html semantico extraída de una imagen. </figcaption>
+                </figure>
+            </section>
+
+            <section class="col-12 col-lg-11 col-xl-10 dark px-4 pt-4">
+                <h3> Etiquetas semanticas. </h3>
+                <dl>
+                    <dt>&lt;article&gt;</dt>
+                        <dd>El elemento &lt;article&gt; especifica contenido independiente e independiente.<br>Un artículo debe tener sentido por sí mismo y debe ser posible distribuirlo independientemente del resto del sitio web.</dd>
+                    <dt>&lt;aside&gt;</dt>
+                        <dd>El elemento &lt;aside&gt; define algún contenido además del contenido en el que se coloca (como una barra lateral).<br>El contenido &lt;aside&gt; debe estar indirectamente relacionado con el contenido circundante.</dd>
+                    <dt>&lt;details&gt;</dt>
+                        <dd>Define detalles adicionales que el usuario puede ver u ocultar</dd>
+                    <dt>&lt;figcaption&gt;</dt>
+                        <dd>La etiqueta &lt;figcaption&gt; define un título para un elemento &lt;figure&gt;. El elemento &lt;figcaption&gt; se puede colocar como el primero o como el último hijo de un elemento &lt;figure&gt;.</dd>
+                    <dt>&lt;figure&gt;</dt>
+                        <dd>La etiqueta &lt;figure&gt; especifica contenido independiente, como ilustraciones, diagramas, fotos, listas de códigos, etc.</dd>
+                    <dt>&lt;footer&gt;</dt>
+                        <dd>El elemento &lt;footer&gt; define un pie de página para un documento o sección.</dd>
+                    <dt>&lt;header&gt;</dt>
+                        <dd>El elemento &lt;header&gt; representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.</dd>
+                    <dt>&lt;main&gt;</dt>
+                        <dd>Especifica el contenido principal de un documento.</dd>
+                    <dt>&lt;mark&gt;</dt>
+                        <dd>Define el texto marcado/resaltado</dd>
+                    <dt>&lt;nav&gt;</dt>
+                        <dd>The &lt;nav&gt; element defines a set of navigation links.</dd>
+                    <dt>&lt;section&gt;</dt>
+                        <dd>El elemento &lt;section&gt; define una sección en un documento.<br>De acuerdo con la documentación HTML de W3C: "Una sección es una agrupación temática de contenido, generalmente con un encabezado".</dd>
+                    <dt>&lt;summary&gt;</dt>
+                        <dd>Define un encabezado visible para un elemento <details&gt;</dd>
+                    <dt>&lt;time&gt;</dt>
+                        <dd>Defines a date/time</dd>
+                </dl>
+                <p> Información sacada de <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank"> W3School </a></p>
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

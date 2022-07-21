@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cl-heavy-pink: #F72585;
+    --cl-magenta: #B5179E;
+    --cl-purple: #7209B7;
+    --cl-dark-purple: #560BAD;
+    --cl-heavy-blue: #480CA8;
+    --cl-dark-blue: #3A0CA3;
+    --cl-blue: #3F37C9;
+    --cl-light-blue: #4361EE;
+    --cl-very-light-blue: #4895EF;
+    --cl-whiteblue: #4CC9F0;
+    --cl-black: #212529;
+    --cl-white: #fcfcfc;
+}
+
+html,body{
+    background-color: var(--cl-black);
+    color: var(--cl-white);
+}
+
+.dark{
+    background-color: var(--cl-black) !important;
+    color: var(--cl-white) !important;
+}
+
+.animate__animated{
+    display: inline-block;
+}

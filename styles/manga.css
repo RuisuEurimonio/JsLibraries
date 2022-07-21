@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+.section_manga{
+    overflow:hidden;
+}
+
+.page{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hard, .page{
+    background-color: #8d99ae;
+}
+
+.suspence{
+    background-color: var(--cl-black);
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-family: 'Berkshire Swash', cursive;
+    text-decoration: line-through;
+    color: var(--cl-black);
+}

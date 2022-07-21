@@ -54,9 +54,8 @@ var wow;
 
 var color = new THREE.MeshBasicMaterial({color: 0x01c4e7});
 var shadow = new THREE.MeshBasicMaterial({color: 0x005c7c});
-const font = './assets/js/fonts/modera_regular.json';
 
-loader.load(font, function (font){
+loader.load('assets/fonts/modera_regular.json', function (font){
     const geometry = new TextGeometry("Bienvenido.",{
         font : font,
         size: .5,
